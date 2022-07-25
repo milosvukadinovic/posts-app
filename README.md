@@ -1,6 +1,6 @@
 # Posts app
 
-This is a pretty basic project. It serves as a foundation to discuss potential problems, architecture and future implementations.
+This is a pretty basic project which was done in 8 hours. It serves as a foundation to discuss potential problems, architecture and future implementations.
 
 Main technologies used are React, React router, Typescript, Sass, Jest.
 
