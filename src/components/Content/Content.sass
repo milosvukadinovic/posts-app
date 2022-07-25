@@ -1,0 +1,73 @@
+.content-container
+    width: 40rem
+    margin: auto
+    margin-bottom: 1rem
+    border-color: #007bff
+    position: relative
+    display: flex
+    flex-direction: column
+    min-width: 0
+    word-wrap: break-word
+    background-color: #fff
+    background-clip: border-box
+    border: 1px solid rgba(0, 0, 0, 0.125)
+    border-radius: 0.25rem
+    text-align: left
+    &.loading
+        text-align: center
+        .spinner
+            margin: 1rem
+
+    .content-body
+        button
+            color: #35dc86
+            border-color: #35dc86
+        p
+            padding: 1rem
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125)
+            border-radius: 0.25rem
+    .content-header
+        border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0
+        display: flex
+        justify-content: space-between
+        font-weight: 600
+        padding: 0.75rem 1.25rem
+        margin-bottom: 0
+        background-color: rgba(0, 0, 0, 0.03)
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125)
+        &.comments
+            justify-content: flex-start
+        button
+            color: #7d35dc
+            border-color: #7d35dc
+        span
+            font-weight: 400
+            padding-left: 0.2rem
+    button
+        white-space: nowrap
+        margin: 0 0 1rem 1rem
+        display: inline-block
+        font-weight: 400
+        color: #212529
+        text-align: center
+        vertical-align: middle
+        cursor: pointer
+        -webkit-user-select: none
+        user-select: none
+        background-color: transparent
+        border: 1px solid transparent
+        padding: 0.375rem 0.75rem
+        font-size: 1rem
+        line-height: 1.5
+        border-radius: 0.25rem
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+        h5
+            margin-bottom: 0.75rem
+            font-size: 1.5rem
+            font-weight: 500
+            line-height: 1.2
+            margin-top: 0
+
+.comments-container
+    margin: 1rem
+    background-color: rgba(0, 0, 0, 0.062)
