@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Posts app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a pretty basic project. It serves as a foundation to discuss potential problems, architecture and future implementations.
+
+Main technologies used are React, React router, Typescript, Sass, Jest.
+
+Notes for the future:
+    - This is a static view App. Good idea here is to make it dynamic, with CRUD functionality with an external DB for example.
+    - Styling can be improved, looks really dull now.
+    - Test coverage.
+    - Clean up styling. Make more themes, make them more reusable...
+    - Folders can be modified to be better structured
+    - And more.
+
 
 ## Available Scripts
 
